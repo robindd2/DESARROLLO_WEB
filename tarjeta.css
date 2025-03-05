@@ -1,0 +1,48 @@
+.tarjeta {
+    font-family: Arial, sans-serif;
+    width: 550px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.contenido {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 30px;
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    padding-bottom: 20px;
+    bottom: -444px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+.imagen img {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+.linkedin img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px; /* Ajusta la distancia desde la parte inferior */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+}
