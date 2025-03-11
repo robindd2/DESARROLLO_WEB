@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="cisco.css">
 <html lang="es">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,178 +9,238 @@
    
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="logo.png">
-            <ul>
-                <li><a href="#">Productos y servicios</a></li>
-                <li><a href="#">Soluciones</a></li>
-                <li><a href="#">Soporte</a></li>
-                <li><a href="#">Aprendizaje</a></li>
-            </ul>
-            <a href="#">Explorar Cisco</a>
-            
-            <input type="text" placeholder="Buscar" style="padding: 5px;">
-            <img src="lupita.png">
-        </nav>
-    </header>
     
+    <div class="nav">
+            
+        <img class="logo" src="imagenes/cisco_light.svg">
+
+        <div class="imenu">
+            <img id="menui"  class="menuicon" src="imagenes/menu.png~" alt="Menu" >
+        </div>
+        
+        
+
+        <div class="izq">
+        <ul>
+           <a href="#">Productos y servicios</a>
+           <a href="#">Soluciones</a>
+           <a href="#">Soporte</a>
+           <a href="#">Aprendizaje</a>
+        </ul>
+        </div>
+       <div class="der">
+        <a href="#">Explorar Cisco</a>
+        
+       </div>
+       <div class="buscar">
+       
+        <a  href="#">Buscar</a>
+        <img  class="lupa" src="imagenes/lupa.png">
+        
+       </div>
+    </div>
+ 
+    <div class="menu">
+        <div class="hm">
+            <img class="logo" src="imagenes/cisco_light.svg">
+        <img id="xi"  class="xicon" src="imagenes/cerrar.png" alt="x" >
+        </div>
+           <div class="mo"><a href="#">Productos y servicios</a></div>
+           <div class="mo"> <a href="#">Soluciones</a></div>
+           <div class="mo"><a href="#">Soporte</a></div>
+           <div class="mo"> <a href="#">Aprendizaje</a></div>
+           <div class="mo">  <a href="#">Explorar Cisco</a></div>
+           <div class="mo"> <a  href="#">Buscar</a></div>
+    </div>
+  </div>
+
+  <script>
+      let menui = document.querySelector("#menui");
+      let menu = document.querySelector(".menu");
+
+      let menuc = document.querySelector("#xi");
+    menui.onclick = () => {
+         menu.classList.add("active");
+      };
+
+      menuc.onclick = () => {
+    menu.classList.remove("active");
+  };
+</script>
     <section class="hero">
+        <div class="img-cisco">
+        <img class="cisco" src="imagenes/cisco-ai-bend-it-hero-3200x1372.jpg">
+        <div class="tex1">
         <h1>Haga de la IA un éxito</h1>
         <p>Convierta en realidad las promesas de la inteligencia artificial con Cisco.</p>
         <button>Descubra Cisco AI</button>
+        </div>
+        </div>
     </section>
     
     <section>
+        <div class="iconos">
         <ul>
-            <li><a href="#"><img src="descarga.png"> Descargas</a></li>
-            <li><a href="#"><img src="Certificaciones.png">Certificaciones</a></li>
-            <li><a href="#"><img src="Validated.png">Cisco Validated</a></li>
-            <li><a href="#"><img src="Capacitacion.png">Capacitacion</a></li>
-            <li><a href="#"><img src="Comunidad.png">Comunidad</a></li>
-            <li><a href="#"><img src="Soporte.png">Soporte</a></li>
+           <li><a class="texicon" href="#"><img class="imagen"  src="imagenes/descargar.png"> Descargas</a></li>
+           <li> <a class="texicon" href="#"><img class="imagen" src="imagenes/sello.png">Certificaciones</a></li>
+           <li>  <a class="texicon" href="#"><img class="imagen" src="imagenes/documento.png">Cisco Validated</a></li>
+           <li> <a class="texicon" href="#"><img class="imagen" src="imagenes/calificar-nota.png">Capacitacion</a></li>
+           <li> <a class="texicon" href="#"><img class="imagen" src="imagenes/comunidad.png">Comunidad</a></li>
+           <li> <a class="texicon" href="#"><img class="imagen" src="imagenes/centro-de-llamadas.png">Soporte</a></li>
         </ul>
+        </div>
     </section>
-
-    <section>
+    
+    <div class="cards">
+    <section class="titulo">
         <h2>¿Desafíos difíciles? Soluciones a medida.</h2>
         <p>Combinamos los productos y servicios ideales en soluciones que abordan los desafíos específicos de su industria, negocio o tecnología.</p>
     </section>
        
-        <section>
-            <div>
-                <span>Observabilidad</span>
-                <h3>Splunk AppDynamics</h3>
-                <p>Optimice el rendimiento de aplicaciones híbridas y locales con la observabilidad de pila completa vinculada al rendimiento empresarial.</p>
+        <section >
+            <div class="card1">
+                <span >Observabilidad</span>
+            <div class="tc1">
+                <h3 class="tc1" >Splunk AppDynamics</h3>
+                <p class="tc1">Optimice el rendimiento de aplicaciones híbridas y locales con la observabilidad de pila completa vinculada al rendimiento empresarial.</p>
+                
             </div>
-            <div>
-                <img src="Foto.png">
-            </div>
-        </section>
-
-        <section>
-            <div>
-            <div>
-                <img src="Foto.png">
-            </div>    
-                <span>Redes</span>
-                <h3>Tome su red tan en serio como su negocio</h3>
+            <img class="ic1" src="https://www.cisco.com/c/es_mx/index/jcr:content/homepagemaincontentparsys/full_d058/Full/mosaic_row_full_26ca/mosaic_row_parsys/section_container_f3/target_content_parsys/mosaic_tile_hero_cop.img.png/1731582299670.png">           
             </div>
         </section>
+         
+        <div class="card2">
 
+        <div class="card2_1">
+        <section>
+            <div >
+            <span>Redes</span>
+            <img src="imagenes/919918399_252659627_640x360.webp">
+            <h3 class="tc21" >Tome su red tan en serio como su negocio</h3>
+            </div>
+        </section>
+        </div>
+
+        <div class="card2_2">
         <section>
             <div>
-            <div>
-                <img src="Foto.png">
-            </div>    
                 <span>Computación</span>
-                <h3>Simplifique a escala</h3>
+                <h3 class="tc22" >Simplifique a escala</h3> 
+                <img src="imagenes/1732648556762.avif">
+                
             </div>
         </section>
-
+        </div>
+        </div>
+        
+       <div class="card3">
+        <div class="card3_1">
         <section>
             <div>
-            <div>
-                <img src="Foto.png">
-            </div>    
                 <span>Seguridad</span>
-                <h3>Resilencia de la seguridad ante lo impredecible</h3>
+                <h3 class="tc3">Resilencia de la seguridad ante lo impredecible</h3>
+                <img src="imagenes/profesionales-empresariales-innovadores-que-utilizan-tecnologia-digital-entorno-oficina-contemporaneo-concepto-planificacion-recursos-empresa-transformacion-digital-planific.jpg">
             </div>
         </section>
+        </div>
 
+
+        <div class="card3_1">
         <section>
             <div>
-            <div>
-                <img src="Foto.png">
-            </div>    
+              
                 <span>Cisco AI Assistant</span>
-                <h3>Optimice su TI</h3>
+                <h3 class="tc3">Optimice su TI</h3>
+                <img src="imagenes/1732742898602.avif">
             </div>
         </section>
+          </div>
 
+          <div class="card3_1">   
         <section>
             <div>
-            <div>
-                <img src="Foto.png">
-            </div>    
+                
                 <span>PyMEs</span>
-                <h3>¿Comenzando su recorrido hacia la nube?</h3>
+                <h3 class="tc3">¿Comenzando su recorrido hacia la nube?</h3>
+                <img src="imagenes/1732652734428.avif"> 
             </div>
         </section>
+          </div>
+    </div>
 
+    <div class="card4">
+        <div class="card4_1">  
         <section>
             <div>
-            <div>
-                <img src="Foto.png">
-            </div>    
+                <img src="imagenes/industrial-buena-1024x576.jpg">
                 <span>Country Digital Aceleration</span>
-                <h3>El corazon digital de México</h3>
+                <h3 class="tc4">El corazon digital de México</h3>
             </div>
         </section>
+        </div>
 
+        <div class="card4_1">  
         <section>
             <div>
-            <div>
-                <img src="Foto.png">
-            </div>    
+        
+                <img src="imagenes/gettyimages-834355812-170667a.jpg">
+           
                 <span>Tecnologia y nearshoring</span>
-                <h3>Oportunidades y desafios para México</h3>
+                <h3 class="tc4">Oportunidades y desafios para México</h3>
             </div>
         </section>
+        </div>
 
+        <div class="card4_1"> 
         <section>
             <div>
-            <div>
-                <img src="Foto.png">
-            </div>    
+           
+                <img src="imagenes/istockphoto-2152719760-612x612.jpg">
+           
                 <span>Cisco México</span>
-                <h3>La madurez digital de México</h3>
+                <h3 class="tc4">La madurez digital de México</h3>
             </div>
         </section>
-   
-    
+       </div>
+    </div>
 
+    </div>
     
     <footer>
-       <section>
-        <div>
-            <ul>
-                <a href="#">Acerca de Cisco</a>
-                <a href="#">Contacte con Cisco</a>
-                <a href="#">Carreras profesionales<a>
-                <a href="#">Conéctese con un partner</a>
-            </ul>
-        </div>
-
-        <div>
-            <ul>
-                <img src="Foto.png">
-                 <img src="Foto.png">
-                 <img src="Foto.png">
-                 <img src="Foto.png">
-                <img src="Foto.png">
-            </ul>
-        </div>
-       </section>
-
-       <section>
-        <div>
-            <ul>
-                <a href="#">Comentarios</a>
-                <a href="#">Ayuda</a>
-                <a href="#">Terminos y condiciones<a>
-                <a href="#">Declaración de privacidad</a>
-                <a href="#">Cookies</a>
-                <a href="#">Marcas registradas</a>
-                <a href="#">Transparencia en la cadena de suministro</a>
-                <a href="#">Mapa del sitio</a>
-
-            </ul>
-        </div>
-
-       </section>
-       
-        <p>&copy; 2025 Cisco Systems, Inc.</p>
-    </footer>
+        <section class="footer-links">
+         <div>
+             <ul>
+                 <li><a href="#">Acerca de Cisco</a></li>
+                 <li><a href="#">Contacte con Cisco</a></li>
+                 <li><a href="#">Carreras profesionales</a></li>
+                 <li><a href="#">Conéctese con un partner</a></li>
+             </ul>
+         </div>
+     
+         <div class="footer-icons">
+             <img src="imagenes/facebook.jpg" alt="Facebook">
+             <img src="imagenes/x.png" alt="X">
+             <img src="imagenes/linkedin.jpg" alt="LinkedIn">
+             <img src="imagenes/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.webp" alt="YouTube">
+             <img src="imagenes/instagram-social-media-icon-design-template-vector-png_127074.jpg" alt="Instagram">
+         </div>
+        </section>
+     
+        <section class="footer-bottom">
+         <div>
+             <ul>
+                 <li><a href="#">Comentarios</a></li>
+                 <li><a href="#">Ayuda</a></li>
+                 <li><a href="#">Términos y condiciones</a></li>
+                 <li><a href="#">Declaración de privacidad</a></li>
+                 <li><a href="#">Cookies</a></li>
+                 <li><a href="#">Marcas registradas</a></li>
+                 <li><a href="#">Transparencia en la cadena de suministro</a></li>
+                 <li><a href="#">Mapa del sitio</a></li>
+             </ul>
+         </div>
+             </section>
+    
+            </footer>
 </body>
 </html>

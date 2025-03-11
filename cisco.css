@@ -1,0 +1,503 @@
+
+.nav {
+    font-family: 'Arial', sans-serif;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    padding-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+
+
+.der {
+    margin-left: auto;
+}
+
+
+.lupa {
+    width: 25px;
+    height: 25px;
+}
+
+
+.logo {
+    width: 108px;
+    height: 57px;
+    margin-left: 20px;
+
+}
+
+.izq ul {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.buscar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 40px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menuicon {
+    display: none;
+}
+
+
+
+.cisco{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.tex1{
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    top: 18%; 
+    left: 6%; 
+    color: rgb(255, 252, 252); 
+   
+    
+}
+
+h1{
+   font-size: 60px;
+   margin-bottom: 18px;
+}
+
+p{
+    font-size:18px;
+}
+
+.img-cisco{
+    position: relative; 
+    width: 101%; 
+    height: 480px;
+    right: 8px;
+}
+
+button{
+    background-color:#00bceb;
+    font-size:17px;
+    padding: 6px 25px;
+    border-radius: 30px;
+    color:#0d274d;
+    cursor:pointer;
+    border: 2px solid #00bceb; 
+    font-family: Helvetica;
+    line-height: 1.5;
+    
+}
+
+
+button:hover {
+    background-color: rgb(77, 201, 255) ;
+    border: 2px solid  rgb(77, 201, 255) ; 
+}
+
+.imagen{
+    width: 30px; 
+    height: 30px;
+    margin-bottom: 20px;
+  
+    
+}
+.iconos ul {
+    display: flex;
+    justify-content: center; 
+    gap: 100px; 
+    list-style: none; 
+    padding: 0;
+    flex-wrap: wrap;
+
+}
+
+
+.iconos{
+    width:100%;
+    height: 100%;
+    padding: 5px 7.4px 10px;
+    margin-top: 0px;
+    margin-left: -8px;
+    object-fit: cover;
+    background-color: #0d274d;
+}
+
+.texicon {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold; 
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.cards{
+    font-family: 'Arial', sans-serif;
+
+}
+
+.titulo{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size:30px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    
+}
+
+.card1{
+    background-color: #0d274d;
+    display: flex;
+    margin-left: 8%;
+    width: 86.7%;
+    height: 360px;
+    align-items: center;
+    border-radius: 15px;
+    color: aliceblue;
+    object-fit: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.ic1{
+    position: relative; 
+    width: 50%; 
+    height: 360px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+span{
+    background-color:#061122;
+    border-radius: 5px;
+    padding: 2px 4px;
+    color: aliceblue;
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 15px;
+}
+
+.tc1{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+h3.tc1{
+    font-size: 35px;
+}
+
+p.tc1{
+    font-size: 18px;
+}
+
+.card2{
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.card2_1{
+    
+    background-color: #000000;
+    display: flex;
+    margin-left: 8%;
+    margin-top: 2%;
+    width: 57%;
+    height:550px;
+    border-radius: 15px;
+    color: aliceblue;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+.card2_2{
+    background-color: #000000;
+    display: flex;
+    margin-left: 1.7%;
+    margin-top: 2%;
+    width: 28%;
+    height: 550px;
+    border-radius: 15px;
+    color: aliceblue;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.card2 img,.card3 img, .card4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.tc21{
+    font-weight: 100;
+    margin-top: 85%;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.tc22{
+    font-weight: 100;
+    margin-top: 192%;
+    margin-left: 20px;
+    font-size: 27px;
+}
+
+.card3,.card4{
+    display: flex;
+    cursor: pointer;
+    margin-left: 6.4%;
+}
+
+.card3_1,.card4_1{
+    background-color: #000000;
+    margin-top: 2%;
+    margin-left: 1.5%;
+    width: 30%;
+    height: 260px;
+    border-radius: 15px;
+    color: aliceblue;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.tc3,.tc4{
+    font-weight: 100;
+    margin-top: 41%;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+.cards{
+    width: 100%;
+    padding-bottom: 25px;
+    padding-right: 7px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
+   
+}
+
+.card2_1::after, 
+.card2_2::after, 
+.card3_1::after, 
+.card4_1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: -1;
+}
+
+
+footer {
+    background-color: #efeeee;
+    padding: 50px 4%;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: #a19d9d;
+   width: 92.5%;
+    margin-top: 1px;
+    
+}
+
+footer section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+footer p {
+    text-align: left;
+    color: #494848;
+}
+
+
+.footer-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icons img {
+    cursor: pointer;
+}
+
+
+.footer-links {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+}
+
+.c{
+    margin-top: 60px;
+    font-size: 15px;
+    align-items: center;
+}
+
+
+
+@media (max-width: 870px) {
+  
+    .izq ul,
+    .der,
+    .buscar {
+        display: none;
+    }
+
+   
+    .menuicon {
+        display: flex;
+      margin-left: 200%;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+    }
+
+  
+    
+
+    .ic1{
+        display: none;
+    }
+    
+    .tc3,.tc4{
+        margin-top: 175%;
+        font-size: 13px;
+    }
+
+    .tc21{
+        margin-top: 205%;
+        font-size: 18px;
+    }
+
+    .tc22{
+        margin-top: 395%;
+        font-size: 18px;
+    }
+
+    .card1{
+        background-image:linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+          ), url("https://www.cisco.com/c/es_mx/index/jcr:content/homepagemaincontentparsys/full_d058/Full/mosaic_row_full_26ca/mosaic_row_parsys/section_container_f3/target_content_parsys/mosaic_tile_hero_cop.img.png/1731582299670.png");
+    }
+
+    .img-cisco{
+      width: 103.7%;
+    }    
+
+    
+    .menu {
+        position: fixed;
+        flex-direction: column;
+        top: 0px;
+        width: 84%;
+        height: 65%;
+        padding: 35px;
+        background-color: white;
+        box-shadow: 0 15px 10px rgba(0, 0, 0, 1);
+        border-top: none;
+        transition: transform 0.5s ease;
+        transform: translateX(100%);
+        z-index: 1000;
+    }
+    .menu.active {
+        transform: translateX(-10px);
+    }
+    .mo {
+        margin-top: 15px;
+        border: 1px solid #058fd4;
+        padding: 20px 0px;
+        background-color: #058fd4;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 5px 10px 10px #045178;
+    }
+    .menu a {
+        color: #e0e0e0;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        box-shadow: -2px 0px 100px rgb(0, 137, 250);
+    }
+
+    .hm{
+        display: flex;
+        margin-bottom: 30px;
+        position: relative;
+        padding-bottom: 30px;
+        border-bottom: 3px solid rgb(43, 190, 238);
+    }
+
+    .xicon{
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    .hm .logo {
+        padding-right:48%;
+    }
+    
+    
+   
+
+}
+
+@media (min-width: 870px) {
+.menu{
+    display: none;
+}
+}
