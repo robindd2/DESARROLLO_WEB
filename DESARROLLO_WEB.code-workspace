@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../html/tarjeta"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DESARROLLO_WEB",
+		"git.ignoreLimitWarning": true
+	}
+}
