@@ -167,7 +167,7 @@ button:hover {
 
 
 
- height: 350px;
+ height: 400px;
 
  background-color: #ffffff;
 
@@ -201,9 +201,9 @@ button:hover {
 
 .img {
 
- width: 70%;
+ width: 80%;
 
- height: 70%;
+ height: 90%;
 
  object-fit: contain;
 
