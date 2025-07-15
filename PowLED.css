@@ -131,7 +131,7 @@ button:hover {
 
  background-color: #dfff40;
 
- border: 2px solid rgb(0, 0, 0);
+ border: 2px solid  #dfff40;
 
 }
 
@@ -589,7 +589,7 @@ text-align: center;
 
  cursor: pointer;
 
- border: 3.5px solid #000000;
+
 
 
  line-height: 1.5;
@@ -597,7 +597,7 @@ text-align: center;
  margin-top: 90px;
 
  transition: all 0.3s ease;
-border: 2px solid rgb(0, 0, 0);
+border: 2px solid rgb(252, 252, 252);
 
 }
 
