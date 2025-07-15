@@ -34,7 +34,7 @@ font-family: "Lato", sans-serif;
 
 .logo {
 
- height: 90px;
+ height: 60px;
 
 }
 
@@ -50,7 +50,7 @@ font-family: "Lato", sans-serif;
 
  width: 100%;
 
- height: 700px;
+ height: 500px;
 
  align-items: center;
 
@@ -60,7 +60,7 @@ font-family: "Lato", sans-serif;
 
  color: rgb(255, 255, 255);
 
- font-size: 5.0rem;
+ font-size: 3.0rem;
 
  object-fit: cover;
 
@@ -98,9 +98,10 @@ button {
 
  background-color: #ffffff;
 
- font-size: 27px;
+ font-size: 20px;
 
- font-weight: 600;
+ font-weight: 900;
+ font-style: italic;
 
  padding: 8px 25px;
 
@@ -110,7 +111,7 @@ button {
 
  cursor: pointer;
 
- border: 4px solid #000000;
+ border: 2px solid #000000;
 
  font-family: Helvetica, sans-serif;
 
@@ -130,7 +131,7 @@ button:hover {
 
  background-color: #dfff40;
 
- border: 4px solid rgb(0, 0, 0);
+ border: 2px solid rgb(0, 0, 0);
 
 }
 
@@ -150,7 +151,7 @@ button:hover {
 
  width: 100%;
 
- height: 90vh;
+ height: 80vh;
 
  gap: 20px;
 
@@ -200,11 +201,9 @@ button:hover {
 
 .img {
 
- width: 80%;
+ width: 70%;
 
- height: auto;
-
- max-height: 80%;
+ height: 50%;
 
  object-fit: contain;
 
@@ -228,7 +227,7 @@ button:hover {
 
  font-weight: 600;
 
- font-size: 1.6rem;
+ font-size: 1rem;
 
  display: flex;
 
@@ -256,7 +255,7 @@ button:hover {
 
  font-style: normal;
 
- font-size: 2.8rem;
+ font-size: 2rem;
 
  line-height: 1;
 
@@ -291,9 +290,9 @@ margin-left: 80px;
 
 .img-fle {
 
- width: 60px;
+ width: 50px;
 
- height: 60px;
+ height: 50px;
 
  stroke: #000000;
 
@@ -361,9 +360,9 @@ margin-left: 80px;
 
 .punto {
 
- width: 18px;
+ width: 10px;
 
- height: 18px;
+ height: 10px;
 
  background-color: #000000;
 
