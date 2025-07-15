@@ -597,6 +597,7 @@ text-align: center;
  margin-top: 90px;
 
  transition: all 0.3s ease;
+border: 2px solid rgb(0, 0, 0);
 
 }
 
@@ -850,12 +851,14 @@ text-align: center;
 
 
     .texto h3 {
+        margin-top: -50px;
       text-align: center;
         font-size: 1rem; 
         font-weight: 900;
     }
 
     .texto p {
+        margin-top: 30px;
              text-align: justify; 
         font-size: 0.9rem; 
     }
