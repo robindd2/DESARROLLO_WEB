@@ -710,10 +710,8 @@ text-align: center;
 
     .contenido-carrusel {
         flex-direction: column;
-        height: auto;
-        max-width: 65%; 
-        margin: 0 auto;
-        padding-bottom: 20px; 
+        height: 500px;
+
     }
 
     .atras,
@@ -722,15 +720,17 @@ text-align: center;
     }
 
     .imagenes {
-        padding: 10px;
-        height: 100px; 
-    }
-
-    .img {
-        
     
-    
+        height: 100%;
+        width: 100%; 
     }
+    
+    .imagenes img {
+    justify-content: center;
+        height: 80%;
+        width: 100%; 
+    }
+    
 
     .texto { 
         padding: 20px;
