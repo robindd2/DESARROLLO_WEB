@@ -705,12 +705,13 @@ text-align: center;
         flex-direction: column;
         height: auto;
         padding: 80px 0px 50px 0px;
-        gap: 20px;
+        gap:0px;
     }
 
     .contenido-carrusel {
         flex-direction: column;
         height: 500px;
+        width: 75%;
 
     }
 
@@ -734,7 +735,7 @@ text-align: center;
 
     .texto { 
         padding: 20px;
-        font-size: 0.95rem; 
+        font-size: 0.65rem; 
         text-align: justify; 
         align-items: flex-start; 
         box-sizing: border-box; 
@@ -809,7 +810,7 @@ text-align: center;
     }
 
     .p .textop button {
-        margin-top: 20px;
+        margin-top: 60px;
         font-size: 16px;
         padding: 5px 28px;
     }
@@ -819,17 +820,20 @@ text-align: center;
         padding-bottom: 30px;
     }
 
+    .button-link{
+        text-decoration-style: none;
+    }
     .puntos-navegacion {
     
          margin-top: -10px;
     }
-
+    
 
 
 
     .card1 {
    
-        height: 450px;
+        height: 550px;
     }
 
     .card1 button {
@@ -847,17 +851,17 @@ text-align: center;
 
     .texto h3 {
       text-align: center;
-        font-size: 1.2rem; 
+        font-size: 1rem; 
         font-weight: 900;
     }
 
     .texto p {
              text-align: justify; 
-        font-size: 1.1rem; 
+        font-size: 0.9rem; 
     }
     
    
-
+    
    
 
     .punto{
